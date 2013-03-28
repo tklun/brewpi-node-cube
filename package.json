@@ -17,7 +17,6 @@
   ],
   "dependencies": {
     "cube": "~0.2.4",
-    "mongodb": "~1.2.14",
     "underscore": "~1.4.4"
   },
   "devDependencies": {
