@@ -1,0 +1,49 @@
+{
+  "name": "brewpi-cube",
+  "description": "Cube and MongoDB interface for the Node.js implementation of BrewPi.",
+  "version": "0.1.0-alpha",
+  "author": "Tom Klun <tom@tomklun.com>",
+  "contributors": [
+    "Tom Klun <tom@tomklun.com>"
+  ],
+  "bugs": {
+    "url": "https://github.com/tklun/brewpi-node-cube/issues"
+  },
+  "keywords": [
+    "beer",
+    "brewing",
+    "temperature control",
+    "arduino"
+  ],
+  "dependencies": {
+    "cube": "~0.2.4",
+    "mongodb": "~1.2.14"
+  },
+  "devDependencies": {
+    "mocha": "~1.8.1",
+    "chai": "~1.5.0",
+    "sinon": "~1.6.0",
+    "covershot": "~0.1.1",
+    "docco": "~0.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tklun/brewpi-node-cube"
+  },
+  "main": "index",
+  "scripts": {
+    "prepublish": "npm prune",
+    "test": "make test"
+  },
+  "engines": {
+    "node": "0.8.x"
+  },
+  "licenses": [
+    {
+      "type": "GPLv3",
+      "url": "http://www.gnu.org/licenses/gpl-3.0.txt"
+    }
+  ],
+  "readmeFilename": "README.md",
+  "license": "GPLv3"
+}
